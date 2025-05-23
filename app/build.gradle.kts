@@ -29,7 +29,7 @@ android {
     defaultConfig {
         applicationId = "org.stypox.dicio"
         minSdk = 21
-        targetSdk = 36
+        targetSdk = 32
         versionCode = 15
         versionName = "3.1"
         testInstrumentationRunner = "org.stypox.dicio.CustomTestRunner"

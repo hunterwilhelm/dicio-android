@@ -7,6 +7,7 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.provider.Settings
 import androidx.activity.compose.ManagedActivityResultLauncher
+import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -26,6 +27,10 @@ val PERMISSION_READ_CONTACTS = Permission.NormalPermission(
 val PERMISSION_CALL_PHONE = Permission.NormalPermission(
     name = R.string.perm_call_phone,
     id = Manifest.permission.CALL_PHONE,
+)
+val PERMISSION_BLUETOOTH_ADMIN = Permission.NormalPermission(
+    name = R.string.perm_bluetooth_admin,
+    id = Manifest.permission.BLUETOOTH_ADMIN,
 )
 
 /**

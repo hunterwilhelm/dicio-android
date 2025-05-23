@@ -1,0 +1,14 @@
+enable:
+  - (enable|turn on|activate) (the? )?(bluetooth|blue tooth)
+  - turn (the? )? (bluetooth|blue tooth) on
+  - bluetooth on
+
+disable:
+  - (disable|turn off|deactivate) (the? )?(bluetooth|blue tooth)
+  - turn (the? )? (bluetooth|blue tooth) off
+  - bluetooth off
+
+status:
+  - (what is|what s) (the? )?(bluetooth|blue tooth) status
+  - is (bluetooth|blue tooth) (enabled|on|active|disabled|off|inactive)
+  - (bluetooth|blue tooth) status

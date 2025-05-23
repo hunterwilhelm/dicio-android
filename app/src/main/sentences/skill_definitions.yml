@@ -100,3 +100,10 @@ skills:
         captures:
           - id: where
             type: string
+
+  - id: bluetooth
+    specificity: high
+    sentences:
+      - id: enable
+      - id: disable
+      - id: status
